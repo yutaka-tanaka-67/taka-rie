@@ -18,6 +18,7 @@ line_bot_api = LineBotApi('7sId6bqX6NjXY4JVJklhFOF40yz5H37Qv8oi/7af6Tw6Q1nbublh9
 #チャンネルの秘密（チャンネルシークレット）を入力
 handler = WebhookHandler('1c6e051751dd565bbc4e4bd102965a6c')
 
+#テスト用
 @app.route("/")
 def test():
     return 'OK'
