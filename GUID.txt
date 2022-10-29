@@ -9,3 +9,7 @@ ls を入力。
 https---をLINEのWebhookに入力。（末尾は残す）
 
 後は、ターミナルを切り替えて flask run を入力。
+
+新規のライブラリを追加したら
+pip freeze > requirements.txt
+をターミナルで実行しておくこと。
