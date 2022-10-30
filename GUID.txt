@@ -13,3 +13,5 @@ https---をLINEのWebhookに入力。（末尾は残す）
 新規のライブラリを追加したら
 pip freeze > requirements.txt
 をターミナルで実行しておくこと。
+
+#22/10/30 githubへのpushが成功したかも
