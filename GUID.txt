@@ -1,0 +1,15 @@
+PC起動時又は時間がかなり経過した後は、ngrokの再起動が必要。
+専用ターミナルを開き、下記URLにcdする。
+C:\exe\ngrok-v3-stable-windows-amd64
+
+ls を入力。
+
+./ngrok http 5000を入力。
+
+https---をLINEのWebhookに入力。（末尾は残す）
+
+後は、ターミナルを切り替えて flask run を入力。
+
+新規のライブラリを追加したら
+pip freeze > requirements.txt
+をターミナルで実行しておくこと。
