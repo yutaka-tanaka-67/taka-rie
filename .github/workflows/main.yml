@@ -1,0 +1,19 @@
+on:
+  push:
+   branches:
+    - main
+name: main
+jobs:
+  web-deploy:
+    name: FTP-Deploy-Action
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get latest code
+    - uses: actions/checkout@v2.3.2
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        ftp_server: ftp.samkirkland.com
+        ftp_username: yutaka-tanaka-67
+        ftp_password: Yutaka6777
+        local_dir: ./
+        remote_dir: shimotmk.com/public_html/git-test/
